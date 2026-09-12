@@ -33,3 +33,13 @@ Created a Lightning App named **HandsMen Threads** to provide a centralized inte
 * **Email** – Email field used to store the customer's email address.
 * **Phone** – Phone field used to store the customer's phone number.
 * **Loyalty Status** – Picklist field with the values: Gold, Silver, and Bronze.
+  
+## Object Relationships
+
+The HandsMen Threads Salesforce CRM project includes the following object relationships:
+
+* **Marketing Campaign → HandsMen Customer** – Lookup Relationship
+* **HandsMen Product → HandsMen Order** – Lookup Relationship
+* **HandsMen Order → HandsMen Customer** – Lookup Relationship
+* **Inventory → HandsMen Product** – Master-Detail Relationship
+
