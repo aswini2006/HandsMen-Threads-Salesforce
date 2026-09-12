@@ -27,3 +27,9 @@ Created a Lightning App named **HandsMen Threads** to provide a centralized inte
 ### User Profile
 
 * System Administrator
+
+### HandsMen Customer – Fields
+
+* **Email** – Email field used to store the customer's email address.
+* **Phone** – Phone field used to store the customer's phone number.
+* **Loyalty Status** – Picklist field with the values: Gold, Silver, and Bronze.
