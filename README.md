@@ -84,3 +84,29 @@ The HandsMen Threads Salesforce CRM project includes the following object relati
 * **LastName** – Text field used for the customer's last name.
 * **Full Name** – Formula field with Text return type.
 * **Formula:** `FirstName__c + " " + LastName__c`
+
+## Validation Rules
+
+### HandsMen Order
+
+* **Rule Name:** Total Amount
+* **Field:** Total Amount
+* **Validation Formula:** `Total_Amount__c <= 0`
+* **Error Message:** Please Enter Correct Amount
+* **Error Location:** Total Amount field
+
+### Inventory
+
+* **Rule Name:** Stock Quantity
+* **Field:** Stock Quantity
+* **Validation Formula:** `Stock_Quantity__c <= 0`
+* **Error Message:** the inventory count is never less than zero.
+* **Error Location:** Top of Page
+
+### HandsMen Customer
+
+* **Rule Name:** Email
+* **Field:** Email
+* **Validation Formula:** `NOT CONTAINS(Email, "@gmail.com")`
+* **Error Message:** Please fill Correct Gmail
+* **Error Location:** Top of Page
