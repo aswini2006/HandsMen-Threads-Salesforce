@@ -117,6 +117,23 @@ The HandsMen Threads Salesforce CRM project includes the following object relati
 
 Created a custom profile named **Platform 1** by cloning the **Standard User** profile.
 
+## Roles
+
+Created the following roles in the Salesforce Role Hierarchy under the **CEO** role:
+
+* **Sales** – Reports to CEO
+* **Inventory** – Reports to CEO
+* **Marketing** – Reports to CEO
+
+### Role Hierarchy
+
+* **CEO**
+
+  * **Sales**
+  * **Inventory**
+  * **Marketing**
+
+
 ### Custom Object Access
 
 Access was configured for:
