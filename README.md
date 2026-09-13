@@ -43,3 +43,16 @@ The HandsMen Threads Salesforce CRM project includes the following object relati
 * **HandsMen Order → HandsMen Customer** – Lookup Relationship
 * **Inventory → HandsMen Product** – Master-Detail Relationship
 
+## Formula Fields
+
+### Inventory
+
+* **Stock Status** – Formula field with Text return type.
+* **Formula:** `IF(Stock_Quantity__c > 10, "Available", "Low Stock")`
+
+### HandsMen Customer
+
+* **FirstName** – Text field used for the customer's first name.
+* **LastName** – Text field used for the customer's last name.
+* **Full Name** – Formula field with Text return type.
+* **Formula:** `FirstName__c + " " + LastName__c`
