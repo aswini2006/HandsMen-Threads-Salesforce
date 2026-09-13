@@ -50,6 +50,34 @@ The HandsMen Threads Salesforce CRM project includes the following object relati
 * **Stock Status** – Formula field with Text return type.
 * **Formula:** `IF(Stock_Quantity__c > 10, "Available", "Low Stock")`
 
+## Remaining Fields
+
+### HandsMen Customer
+
+* **Total Purchases** – Number field used to store the customer's total purchases.
+
+### HandsMen Product
+
+* **SKU** – Text field used to identify the product.
+* **Price** – Currency field used to store the product price.
+* **Stock Quantity** – Number field used to store the available product quantity.
+
+### HandsMen Order
+
+* **Status** – Picklist with the values: Pending, Confirmed, and Rejection.
+* **Quantity** – Number field used to store the order quantity.
+* **Total Amount** – Number field used to store the total order amount.
+
+### Inventory
+
+* **Warehouse** – Text field used to store warehouse information.
+* **Stock Quantity** – Number field used to track inventory quantity.
+
+### Marketing Campaign
+
+* **Start Date** – Date field used to store the campaign start date.
+* **End Date** – Date field used to store the campaign end date.
+
 ### HandsMen Customer
 
 * **FirstName** – Text field used for the customer's first name.
