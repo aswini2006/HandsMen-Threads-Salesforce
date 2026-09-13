@@ -110,3 +110,16 @@ The HandsMen Threads Salesforce CRM project includes the following object relati
 * **Validation Formula:** `NOT CONTAINS(Email, "@gmail.com")`
 * **Error Message:** Please fill Correct Gmail
 * **Error Location:** Top of Page
+
+## Profile
+
+### Platform 1
+
+Created a custom profile named **Platform 1** by cloning the **Standard User** profile.
+
+### Custom Object Access
+
+Access was configured for:
+
+* **HandsMen Product**
+* **Inventory**
