@@ -167,3 +167,17 @@ Created the following users and assigned them to the corresponding roles:
 - **Niklaus Mikaelson** → Sales
 - **Kol Mikaelson** → Inventory
 - **Daniel Mikaelson** → Marketing
+
+## Permission Set
+
+Created a permission set named **Permission_Platform_1**.
+
+### Object Permissions
+
+- **HandsMen Customer** – Read, Create, Edit, Delete
+- **HandsMen Order** – Read, Create, Edit, Delete
+
+### Assignment
+
+- **Assigned User:** Niklaus Mikaelson
+- **Profile:** Platform 1
