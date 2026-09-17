@@ -140,3 +140,30 @@ Created the following roles in the Salesforce Role Hierarchy under the **CEO** r
   * **Inventory**
   * **Marketing**
 
+## Users
+
+Created the following users and assigned them to the corresponding roles:
+
+### Niklaus Mikaelson
+
+- **Role:** Sales
+- **User License:** Salesforce
+- **Profile:** Platform 1
+
+### Kol Mikaelson
+
+- **Role:** Inventory
+- **User License:** Salesforce
+- **Profile:** Platform 1
+
+### Daniel Mikaelson
+
+- **Role:** Marketing
+- **User License:** Salesforce
+- **Profile:** Platform 1
+
+## User and Role Assignment
+
+- **Niklaus Mikaelson** → Sales
+- **Kol Mikaelson** → Inventory
+- **Daniel Mikaelson** → Marketing
