@@ -181,3 +181,13 @@ Created a permission set named **Permission_Platform_1**.
 
 - **Assigned User:** Niklaus Mikaelson
 - **Profile:** Platform 1
+
+## Permission Set Assignment
+
+Created **Permission_Platform_1** and assigned it to all three users:
+
+- Niklaus Mikaelson
+- Kol Mikaelson
+- Daniel Mikaelson
+
+The permission set provides **Read, Create, Edit, and Delete** access to HandsMen Customer and HandsMen Order.
