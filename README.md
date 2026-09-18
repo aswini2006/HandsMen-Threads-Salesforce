@@ -199,3 +199,11 @@ Created Classic Email Templates for project automation:
 - **Order_Confirmation_Email** – Order confirmation
 - **Low_Stock_Alert** – Low stock notification
 - **Loyalty_Program_Email** – Loyalty program update
+
+## Email Alerts
+
+Created email alerts for project automation:
+
+- **Order Confirmation Email Alert** – Sends an email when an order is confirmed.
+- **Low Stock Alert** – Sends an email when stock levels are low.
+- **Loyalty Program Email** – Sends an email for loyalty program updates.
