@@ -191,3 +191,11 @@ Created **Permission_Platform_1** and assigned it to all three users:
 - Daniel Mikaelson
 
 The permission set provides **Read, Create, Edit, and Delete** access to HandsMen Customer and HandsMen Order.
+
+## Email Templates
+
+Created Classic Email Templates for project automation:
+
+- **Order_Confirmation_Email** – Order confirmation
+- **Low_Stock_Alert** – Low stock notification
+- **Loyalty_Program_Email** – Loyalty program update
