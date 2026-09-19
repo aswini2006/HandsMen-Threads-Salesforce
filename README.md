@@ -207,3 +207,33 @@ Created email alerts for project automation:
 - **Order Confirmation Email Alert** – Sends an email when an order is confirmed.
 - **Low Stock Alert** – Sends an email when stock levels are low.
 - **Loyalty Program Email** – Sends an email for loyalty program updates.
+
+## Order Confirmation Flow
+
+Created a record-triggered flow named **Order Confirmation Flow**.
+
+- **Object:** HandsMen Order
+- **Trigger:** When a record is updated to Confirmed
+- **Action:** Send Order Confirmation Email
+- **Purpose:** Sends a confirmation email when an order is confirmed.
+
+## Stock Alert Flow
+
+Created a record-triggered flow named **Stock Alert Flow**.
+
+- **Object:** Inventory
+- **Trigger:** Record created or updated with stock below 5
+- **Action:** Send Low Stock Alert
+- **Recipient:** Inventory Manager
+- **Purpose:** Sends an alert when inventory stock falls below 5.
+
+## Loyalty Status Update Flow
+
+Created a scheduled flow named **Loyalty Status Update Flow**.
+
+- **Frequency:** Daily
+- **Object:** HandsMen Customer
+- **Gold:** Total Purchases > 1000
+- **Bronze:** Total Purchases < 500
+- **Silver:** Default outcome
+- **Purpose:** Automatically updates customer loyalty status based on total purchases.
