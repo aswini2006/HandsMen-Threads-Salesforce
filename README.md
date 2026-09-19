@@ -231,6 +231,23 @@ Created a record-triggered flow named **Stock Alert Flow**.
 
 Created a scheduled flow named **Loyalty Status Update Flow**.
 
+## Apex Class
+
+Created an Apex class named **OrderTriggerHandler**.
+
+- Validates order quantity based on order status.
+- Confirmed orders require quantity above 500.
+- Pending orders require quantity above 200.
+- Rejected orders require quantity to be 0.
+
+## Apex Trigger
+
+Created an Apex trigger named **OrderTrigger** on **HandsMen Order**.
+
+- **Events:** Before Insert, Before Update
+- **Purpose:** Calls the `OrderTriggerHandler` class to validate order quantity before saving records.
+
+
 - **Frequency:** Daily
 - **Object:** HandsMen Customer
 - **Gold:** Total Purchases > 1000
