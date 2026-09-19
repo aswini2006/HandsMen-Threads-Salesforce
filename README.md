@@ -254,3 +254,20 @@ Created an Apex trigger named **OrderTrigger** on **HandsMen Order**.
 - **Bronze:** Total Purchases < 500
 - **Silver:** Default outcome
 - **Purpose:** Automatically updates customer loyalty status based on total purchases.
+
+## Batch Apex
+
+Created an Apex class named **InventoryBatchJob**.
+
+- **Batch Job:** Finds products with stock quantity below 10.
+- **Restock Logic:** Increases stock quantity by 50.
+- **Batch Size:** 200
+- **Purpose:** Automates inventory synchronization.
+
+## Scheduled Apex
+
+Scheduled **InventoryBatchJob** to run daily at midnight.
+
+- **Job Name:** Daily Inventory Sync
+- **Schedule:** Daily at 12:00 AM
+- **Purpose:** Automatically runs the inventory batch process.
